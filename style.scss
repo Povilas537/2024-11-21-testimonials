@@ -1,0 +1,189 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(65, 138, 138);
+}
+.container{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    gap: 40px;
+    .left-container{
+        width: calc(75% - 20px);
+        display: flex;
+        flex-wrap: wrap;
+        gap:20px;
+        .testimonial-1{
+            width: calc(75% - 20px);
+            background-color: rgb(78, 17, 128);
+            border-radius: 10px;
+            padding: 20px;
+            background-image: url(bg-pattern-quotation.svg);
+            background-repeat: no-repeat;
+            background-position: 80% 0;
+            
+            .user-wrapper{
+                display: flex;
+                gap: 10px;
+                align-items: center;
+                
+                .picture{
+                    img{
+                        border-radius: 100%;
+                        border: solid rgb(155, 94, 155);
+                    }
+                }
+                .user{
+                    .name{
+                        color: aliceblue;
+                    }
+                    .verified{
+                        color: plum;
+                    }
+                }
+            }
+            .title{
+                color: aliceblue;
+            }
+            .more-info{
+                color: plum;
+            }
+        }
+        .testimonial-2{
+            width: calc(25% - 20px);
+            background-color: rgb(59, 59, 77);
+            border-radius: 10px;
+            padding: 20px;
+            .user-wrapper{
+                display: flex;
+                gap: 10px;
+                align-items: center;
+                
+                .picture{
+                    img{
+                        border-radius: 100%;
+                        border: solid rgb(42, 41, 49);
+                    }
+                }
+                .user{
+                    .name{
+                        color: aliceblue;
+                    }
+                    .verified{
+                        color: rgb(152, 152, 170);
+                    }
+                }
+            }
+            .title{
+                color: aliceblue;
+            }
+            .more-info{
+                color: rgb(152, 152, 170);
+            }
+            
+        }
+        .testimonial-3{
+            width: calc(25% - 20px);
+            background-color: rgb(255, 255, 255);
+            border-radius: 10px;
+            padding: 20px;
+            .user-wrapper{
+                display: flex;
+                gap: 10px;
+                align-items: center;
+                
+                .picture{
+                    img{
+                        border-radius: 100%;
+                        
+                    }
+                }
+                .user{
+                    .name{
+                        color: rgb(35, 36, 37);
+                    }
+                    .verified{
+                        color: rgb(76, 76, 85);
+                    }
+                }
+            }
+            .title{
+                color: rgb(27, 28, 29);
+            }
+            .more-info{
+                color: rgb(66, 66, 73);
+            }
+        }
+        .testimonial-4{
+            width: calc(75% - 20px);
+            background-color: rgb(26, 24, 27);
+            border-radius: 10px;
+            padding: 20px;
+            .user-wrapper{
+                display: flex;
+                gap: 10px;
+                align-items: center;
+                
+                .picture{
+                    img{
+                        border-radius: 100%;
+                        border: solid rgb(155, 94, 155);
+                    }
+                }
+                .user{
+                    .name{
+                        color: aliceblue;
+                    }
+                    .verified{
+                        color: rgb(113, 112, 131);
+                    }
+                }
+            }
+            .title{
+                color: aliceblue;
+            }
+            .more-info{
+                color: rgb(150, 148, 160);
+            }
+        }
+        
+    }
+    .right-container{
+        width: 25%;
+        .testimonial-5{
+            width: calc(100% - 20px);
+            background-color: rgb(255, 255, 255);
+            border-radius: 10px;
+            padding: 20px;
+            .user-wrapper{
+                display: flex;
+                gap: 10px;
+                align-items: center;
+                
+                .picture{
+                    img{
+                        border-radius: 100%;
+                        
+                    }
+                }
+                .user{
+                    .name{
+                        color: rgb(35, 36, 37);
+                    }
+                    .verified{
+                        color: rgb(76, 76, 85);
+                    }
+                }
+            }
+            .title{
+                color: rgb(27, 28, 29);
+            }
+            .more-info{
+                color: rgb(66, 66, 73);
+            }
+        }
+    }
+}
+
